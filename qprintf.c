@@ -7,9 +7,7 @@ char STR [] = "khzeiohz";
 
 int main(){
 	
-	
-	char *c = '0';
-	
+    char c[] = "013";
 	
 	switch(*c){
 		case '1':
