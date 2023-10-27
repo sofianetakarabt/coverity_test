@@ -21,16 +21,20 @@ int main(){
 			break;
 	}
 
-    if (STR[i] < 0x7f)
+    if (STR[1] < 0x7f)
         printf("Go toto\n");
 
-    char sx = STR[i];
+    char sx = STR[1];
 
     unsigned char us = (unsigned char) sx;
 
     int is = (int) us;
 
-    printf("Go toto %d\n", is);
+    printf("is: %d\n", is);
+
+    int is1 = (int) sx;
+
+    printf("is1: %d\n", is1);
 
 	return 0;
 }
