@@ -24,5 +24,13 @@ int main(){
     if (STR[i] < 0x7f)
         printf("Go toto\n");
 
+    char sx = STR[i];
+
+    unsigned char us = (unsigned char) sx;
+
+    int is = (int) us;
+
+    printf("Go toto %d\n", is);
+
 	return 0;
 }
